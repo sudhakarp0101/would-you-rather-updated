@@ -31,7 +31,7 @@ class Poll extends Component {
         const { question, author } = this.props
 
         if (question === null) {
-            return <p>Question doesn't exist</p>
+            return <p>Page Not Found-404 Error!!!!</p>
         }
         const {
             optionOne, optionTwo, id

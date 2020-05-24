@@ -22,7 +22,6 @@ class Dashboard extends Component {
                 questions[id].optionTwo.votes.find(au => au === authedUser))))
         return (
             <div >
-                {console.log(unanswered)}
                 <Tabs className="question-type" selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })}>
                     <TabList>
                         <Tab>Unanswered Questions</Tab>

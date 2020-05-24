@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom'
 
 export default function PrivateRoute({ component: Component, authedUser, ...rest }) {
-    console.log(authedUser)
     return (
         <Route {...rest} render={(props) => (
             authedUser !== null

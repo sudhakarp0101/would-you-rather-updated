@@ -31,6 +31,7 @@ class App extends Component {
               <PrivateRoute path='/home' authedUser={authedUser} component={Dashboard} />
               <PrivateRoute path='/leaderboard' authedUser={authedUser} component={LeaderBoard} />}.
               <PrivateRoute path='/poll/:id' authedUser={authedUser} component={Poll} />}
+              <PrivateRoute path='/poll' authedUser={authedUser} component={Poll} />}
               <PrivateRoute path='/new' authedUser={authedUser} component={NewQuestion} />}
               <PrivateRoute path='/pollresult/:id' authedUser={authedUser} component={PollResult} />}
               <PrivateRoute path='/pollresult' authedUser={authedUser} component={PollResult} />}
